@@ -9,6 +9,8 @@ gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+gem 'twitter-bootstrap-rails'
+gem 'font-awesome-rails'
 
 group :doc do
   gem 'sdoc', require: false

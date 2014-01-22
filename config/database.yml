@@ -1,0 +1,20 @@
+development: &defaults
+  adapter: postgresql
+  encoding: unicode
+  database: resume_development
+  pool: 5
+  username: enbake
+  password: enbake
+  host: localhost
+
+test:
+  <<: *defaults
+  database: resume_test
+
+production:
+  <<: *defaults
+  database: resume_prod
+
+staging:
+  <<: *defaults
+  database: resume_staging
